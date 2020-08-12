@@ -57,11 +57,6 @@ header {
   margin: auto;
   text-align: center;
 
-  &__button {
-    width: auto;
-    outline: none;
-  }
-
   &__container {
     display: flex;
     padding: 0 5px;
@@ -83,7 +78,8 @@ header {
     font-weight: bold;
     border: none;
     background-color: $primary;
-    width: 100px;
+
+    width: auto;
 
     &--disabled {
       background-color: grey;

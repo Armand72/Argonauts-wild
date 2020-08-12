@@ -6,11 +6,7 @@ const api = require("./routes");
 const connectDB = require("./config/db");
 const path = require("path");
 
-require("dotenv").config();
-
 connectDB();
-
-const SERVER_ADDRESS = process.env.SERVER_ADDRESS;
 
 app.use(parser.json());
 app.use(
