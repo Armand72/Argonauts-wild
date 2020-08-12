@@ -67,9 +67,14 @@ class App extends Component {
                 <button
                   onClick={this.addMember}
                   type="submit"
-                  className="form__button"
+                  className={
+                    member === ""
+                      ? "form__button form__button--disabled"
+                      : "form__button"
+                  }
+                  disabled={member < 1}
                 >
-                  Send
+                  Submit
                 </button>
               </div>
             </form>

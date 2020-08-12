@@ -58,6 +58,7 @@ header {
   text-align: center;
 
   &__button {
+    width: auto;
     outline: none;
   }
 
@@ -68,6 +69,9 @@ header {
   }
 
   &__button {
+    @media (min-width: $tablet) {
+      font-size: 1.5rem;
+    }
     cursor: pointer;
     font-family: $main-font;
     font-size: 1.2rem;
@@ -80,6 +84,10 @@ header {
     border: none;
     background-color: $primary;
     width: 100px;
+
+    &--disabled {
+      background-color: grey;
+    }
   }
   &__registration {
     @media (min-width: $tablet) {
@@ -89,6 +97,9 @@ header {
   }
 
   &__subtext {
+    @media (min-width: $tablet) {
+      font-size: 1.5rem;
+    }
     width: 60%;
     text-align: left;
     font-weight: bold;
@@ -117,6 +128,9 @@ header {
 }
 
 .member {
+  @media (min-width: $tablet) {
+    font-size: 1.5rem;
+  }
   background-color: $primary;
   max-width: 90%;
   margin: auto;
@@ -128,6 +142,9 @@ header {
 }
 
 footer {
+  @media (min-width: $tablet) {
+    font-size: 1.5rem;
+  }
   width: 100vw;
   color: white;
   background-color: $primary;

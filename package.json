@@ -2,11 +2,12 @@
   "name": "template-react",
   "version": "1.0.0",
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "jest",
     "server": "nodemon server.js",
     "client": "npm start --prefix client",
+    "start": "node server.js",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "heroku-postbuild": "cd client && npm install && npm run build"
   },
@@ -18,6 +19,7 @@
     "type": "git",
     "url": "git+https://github.com/Armand72/template-react.git"
   },
+  "proxy": "http://localhost:4000",
   "author": "",
   "license": "ISC",
   "bugs": {
