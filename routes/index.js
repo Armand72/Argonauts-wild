@@ -1,8 +1,7 @@
 const express = require("express");
 const router = express.Router();
+const members = require("./members");
 
-// const image = require("./image");
-
-// router.use("/image", image);
+router.use("/members", members);
 
 module.exports = router;

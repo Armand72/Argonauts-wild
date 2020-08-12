@@ -4,6 +4,8 @@
 **/
 
 @import "./utils/_breakpoint";
+@import "./utils/_colors";
+@import "./utils/_font";
 
 /*
 * base section : reset, global
@@ -26,3 +28,5 @@
 * page section
 *
 **/
+
+@import "./pages/homepage";
