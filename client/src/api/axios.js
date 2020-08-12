@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const address = "https://argonauts-armand-meunier.herokuapp.com/api/";
+const address = process.env.URL;
 
 const API = axios.create();
 API.defaults.baseURL = address;
