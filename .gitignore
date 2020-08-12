@@ -1,12 +1,10 @@
 
 # dependencies
 node_modules/
-/config/default.json
+/config/production.json
 /.pnp
 .pnp.js
 .env
-
-
 
 # production
 build/
