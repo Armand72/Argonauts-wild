@@ -2,6 +2,8 @@
 
 ## Argonauts-Wild
 
+link to the deployed website : https://argonauts-armand-meunier.herokuapp.com/
+
 ### `default.json`
 
 In default.json in the config folder. create a key named "mongoURI" and paste your uri from mongoDB.
