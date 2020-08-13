@@ -2,9 +2,13 @@
 
 ## Argonauts-Wild
 
-### 'default.json'
+### `default.json`
 
-Create a file named default.json in the config folder. create a key named "mongoURI" and paste your uri from mongoDB.
+In default.json in the config folder. create a key named "mongoURI" and paste your uri from mongoDB.
+
+### `axios`
+
+set your localhost address in the axios file in the client exemple: http://localhost:3000/api/
 
 ### `npm run dev`
 
